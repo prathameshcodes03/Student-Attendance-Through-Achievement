@@ -1,0 +1,192 @@
+body{
+    background-color: #F4F6F9;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    height: 8vh;
+    width: 100%;
+    margin-top: 3vh;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.home,.about,.con,.stu,.admin{
+    color:#1E3A8A;
+    text-align: center;
+}
+
+#btn1,#btn2{
+    background-color: #1E3A8A;
+    color: white;
+    border-radius: 4rem;
+    text-align: center;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+#btn1:hover,#btn2:hover{
+     background-color: rgb(20, 20, 150);
+    box-shadow: 0 10px 20px rgba(33, 33, 190, 0.4);
+    transform: translateY(-3px);
+}
+
+
+#btn1:active,#btn2:active{
+   transform: scale(0.95);
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    font-size: 0.5rem;
+    color: white;
+    height: 5vh;
+    width: 100%;
+    padding-top: 1.0vh;
+    margin-top: 30vh;
+
+}
+
+.hero{
+    background-color: #EFF6FF;
+    min-height: 50vh;
+    min-width: 8vw;
+    margin-left: 25vh;
+    margin-right: 18vh;
+    margin-top: 18vh;
+    border-radius: 3.5rem;
+    border: 2px solid black;
+
+    transition: all 0.4s ease;
+}
+
+
+.hero:hover{
+    transform: translateY(-10px) scale(1.01);
+    box-shadow: 0px 20px 40px rgba(37,99,235,0.25);
+    border-color: #2563EB;
+}
+
+
+.hero-text{
+margin-left: 30px;
+margin-top: 20px;
+}
+
+.primary-btn{
+ background-color: #1E3A8A;
+    color: white;
+    border-radius: 4rem;
+    text-align: center;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 70px;
+}
+.primary-btn:hover{
+         background-color: rgb(20, 20, 150);
+    box-shadow: 0 10px 20px rgba(33, 33, 190, 0.4);
+    transform: translateY(-3px);
+
+}
+
+.primary-btn:active{
+   transform: scale(0.95);
+}
+
+
+
+
+
+
+
+.benefits{
+    text-align:center;
+    padding:60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+h2{
+    text-align: center;
+    margin-left: 3rem;
+    margin-top: 3rem;
+
+}
+
+.card
+{
+background:#EFF6FF;
+padding:25px;
+width:200px;
+border-radius:20px;
+border: 2px solid black;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 15px 30px rgba(37,99,235,0.25);
+    border-color: #2563EB;
+    transition: all 0.3s ease;
+}
+
+
+
+.step-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.step{
+    background:#EFF6FF;
+    width:200px;
+    padding:25px;
+    border-radius:20px;
+    border:2px solid black;
+    text-align:center;
+    transition:all 0.3s ease;
+}
+
+
+.step span{
+    display:inline-block;
+    background:#1E3A8A;
+    color:white;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    line-height:40px;
+    margin-bottom:10px;
+}
+
+
+.step:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 15px 30px rgba(37,99,235,0.25);
+    border-color:#2563EB;
+}
+
+
+
+
+
