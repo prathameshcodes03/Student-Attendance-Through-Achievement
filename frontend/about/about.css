@@ -1,0 +1,195 @@
+body{
+    background-color: #F4F6F9;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    height: 8vh;
+    width: 100%;
+    margin-top: 3vh;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.home,.about,.con,.stu,.admin{
+    color:#1E3A8A;
+    text-align: center;
+}
+
+#btn1,#btn2{
+    background-color: #1E3A8A;
+    color: white;
+    border-radius: 4rem;
+    text-align: center;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+#btn1:hover,#btn2:hover{
+     background-color: rgb(20, 20, 150);
+    box-shadow: 0 10px 20px rgba(33, 33, 190, 0.4);
+    transform: translateY(-3px);
+}
+
+
+#btn1:active,#btn2:active{
+   transform: scale(0.95);
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    font-size: 0.5rem;
+    color: white;
+    height: 5vh;
+    width: 100%;
+    padding-top: 1.0vh;
+    margin-top: 30vh;
+
+}
+
+
+.img{
+    height: 50vh;
+    width: 40vw;
+    background-image: url("About.png");
+    display: grid;
+    grid-template-rows:repeat(1,100px) ;
+    grid-template-columns: repeat(1,100px);
+   justify-content: center;
+   align-items: center;
+    background-color: #F4F6F9;
+     background-size: cover;
+    background-position: center;
+   border-radius: 3rem;
+   border: 2px solid black;
+   margin-left: 85vh;
+   margin-top: 15vh;
+}
+
+.btn4{
+      background-color: #1E3A8A;
+    color: white;
+    border-radius: 4rem;
+    text-align: center;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  
+}
+
+
+.btn4:hover{
+     background-color: rgb(20, 20, 150);
+    box-shadow: 0 10px 20px rgba(33, 33, 190, 0.4);
+    transform: translateY(-3px);
+}
+
+.btn4:active{
+   transform: scale(0.95);
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn4{
+    margin-top: 100vh;
+    margin-right: 10vh;
+}
+
+
+
+
+
+
+.img{
+    transition: all 0.4s ease;
+}
+
+.img:hover{
+    transform: scale(1.03);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border-color:#1E3A8A;
+}
+
+
+
+
+.info{
+    width: 40%;
+    margin-left: 10vh;
+    margin-top: -45vh;
+}
+
+.info h1{
+    color:#1E3A8A;
+    font-size: 2rem;
+}
+
+.info p{
+    color:#444;
+    line-height: 1.6;
+}
+
+
+
+
+.mission,.vision{
+    background:white;
+    width:35%;
+    margin-left:10vh;
+    margin-top:4vh;
+    padding:20px;
+    border-radius:15px;
+    display:flex;
+    gap:15px;
+    align-items:flex-start;
+    transition: all 0.3s ease;
+}
+
+
+
+.mission i{
+    color:#ff9800;
+    font-size:25px;
+}
+
+.vision i{
+    color:#1E3A8A;
+    font-size:25px;
+}
+
+
+
+
+.mission p,.vision p{
+    margin:0;
+    color:#333;
+    line-height:1.5;
+}
+
+
+
+
+.mission:hover,.vision:hover{
+    transform: translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
