@@ -22,13 +22,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     
-    document.getElementById("#btn1")?.addEventListener("click", () => {
+    document.getElementById("btn1")?.addEventListener("click", () => {
         window.location.href = "../user-login/index.html";
     });
 
       
 
-    document.getElementById("#btn2")?.addEventListener("click", () => {
+    document.getElementById("btn2")?.addEventListener("click", () => {
         window.location.href = "../admin-login/index2.html";
     });
 
