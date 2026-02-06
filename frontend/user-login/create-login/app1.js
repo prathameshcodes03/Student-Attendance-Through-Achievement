@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded",()=>{
       toggleIcon.classList.add("fa-eye-slash");
       toggleIcon.classList.remove("fa-eye");
     } 
+
     else {
       pass.type = "password";      
       toggleIcon.classList.add("fa-eye");
@@ -49,6 +50,7 @@ document.addEventListener("DOMContentLoaded",()=>{
             msg.style.color="red";
             msg.style.textAlign="center";
             msg.classList.add("error-glow");
+            return;
         }
 
 
