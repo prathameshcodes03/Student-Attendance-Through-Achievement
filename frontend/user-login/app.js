@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded",()=>{
       toggleIcon.classList.add("fa-eye-slash");
       toggleIcon.classList.remove("fa-eye");
     } 
+
     else {
       pass.type = "password";      
       toggleIcon.classList.add("fa-eye");
@@ -57,6 +58,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     const validUser = users.find(
         u => u.username === us && u.password === ps
     );
+    
 
     if (validUser) {
         msg2.textContent = "Login successful";
