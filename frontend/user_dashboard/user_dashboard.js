@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = "../contact/contact.html";
     });
 
-    document.querySelector(".stu")?.addEventListener("click", () => {
-        window.location.href = "../user_dashboard/user_dashboard.html";
-    });
+document.querySelector(".stu")?.addEventListener("click", () => {
+    window.location.href = "../user_dashboard/user_dashboard.html";
+});
 
     document.querySelector(".admin")?.addEventListener("click", () => {
         window.location.href = "../admin_dashboard/admin_dashboard.html";
