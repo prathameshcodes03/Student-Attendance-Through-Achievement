@@ -1,22 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const studentLogged = localStorage.getItem("studentLoggedIn");
-    const messageBox = document.getElementById("loginMessage");
 
 
-    if (!studentLogged) {
-
-        messageBox.style.display = "block";
-        messageBox.innerText = "Please login as Student to access dashboard";
-
-        setTimeout(() => {
-            window.location.href = "../user-login/index.html";
-        }, 2000);
-
-        return;
-    }
-
- 
     document.querySelector(".home")?.addEventListener("click", () => {
         window.location.href = "../home/home.html";
     });
@@ -46,7 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
-
 
 
 
