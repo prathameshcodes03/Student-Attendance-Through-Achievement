@@ -129,7 +129,7 @@ input:focus {
 
 
 
-button {
+#choose , #submit {
     height: 3rem;
     width: 12rem;
     font-size: 1rem;
@@ -147,13 +147,13 @@ button {
     transition: all 0.3s ease;
 }
 
-button:hover {
+#choose:hover , #submit:hover {
     background-color: rgb(20, 20, 150);
     box-shadow: 0 10px 20px rgba(33, 33, 190, 0.4);
     transform: translateY(-3px);
 }
 
-button:active {
+#choose:active , #submit:active {
     transform: scale(0.95);
 }
 
