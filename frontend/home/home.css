@@ -63,7 +63,7 @@ a{
 
 .hero{
     background-color: #EFF6FF;
-    min-height: 50vh;
+    min-height: 70vh;
     min-width: 8vw;
     margin-left: 25vh;
     margin-right: 18vh;
@@ -85,6 +85,25 @@ a{
 .hero-text{
 margin-left: 30px;
 margin-top: 20px;
+}
+
+.hero-image{
+    display: grid;
+    background-size: cover;
+    background-image: url("Home.png");
+    border-radius: 3.5rem;
+    border: transparent;
+    justify-content: center;
+    align-items: center;
+      grid-template-rows:repeat(1,100px) ;
+    grid-template-columns: repeat(1,100px);
+     height: 50vh;
+    width: 40vw;
+    margin-left: 50vh;
+    margin-top: -13.5vh;
+
+
+
 }
 
 .primary-btn{
