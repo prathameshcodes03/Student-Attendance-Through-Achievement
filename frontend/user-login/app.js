@@ -12,7 +12,6 @@ toggleIcon.addEventListener("click", () => {
     pass.type = pass.type === "password" ? "text" : "password";
 });
 
-
 btn.addEventListener("click", () => {
 
     const us = user.value.trim();
@@ -25,7 +24,6 @@ btn.addEventListener("click", () => {
         msg.textContent = "Username or password cannot be empty";
         msg.style.color="red";
         msg.style.textAlign="center";
-        msg.style.fontSize="0.75rem";
         return;
     }
 
@@ -55,19 +53,22 @@ btn.addEventListener("click", () => {
     }
 
 
+    localStorage.setItem("loggedInUser", us);
+
     msg2.textContent = "Login successful";
     msg2.style.color="green";
     msg2.style.textAlign="center";
 
     setTimeout(()=>{
-        window.location.href="../user_dashboard/user_dashboard.html";
-    },1500);
+        window.location.href = "../user_dashboard/user_dashboard.html";
+    },1000);
 
 });
-
 
 btn1.addEventListener("click",()=>{
     window.location.href="create-login/index1.html";
 });
 
 });
+
+

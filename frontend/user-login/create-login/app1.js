@@ -84,9 +84,9 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 
             
-setTimeout(()=>{
-window.location.href="index.html";
-},2000);
+setTimeout(() => {
+    window.location.href = "../index.html";
+}, 2000);
 
 
 });

@@ -48,6 +48,8 @@ document.addEventListener("DOMContentLoaded",()=>{
             msg2.style.color="red";
             msg2.style.textAlign="center";
             msg2.classList.add("error-glow");
+
+
         }
 
 
@@ -57,6 +59,9 @@ else if(us==="Admin01@gmail.com" && ps==="12345678"){
         msg2.style.textAlign="center";
         msg2.classList.add("error-glow");
         msg2.style.fontSize="0.75rem";
+
+
+        window.location.href="admin_dashboard.html";
 
 }
 
