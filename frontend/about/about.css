@@ -75,7 +75,7 @@ a{
      background-size: cover;
     background-position: center;
    border-radius: 3rem;
-   border: 2px solid black;
+   border: transparent;
    margin-left: 85vh;
    margin-top: 15vh;
 }
